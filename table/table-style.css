@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+
+body {
+    background-image: url(img/drink_tatenaga.jpeg);
+    background-size: cover;
+    font-family:"BIZ UDP明朝 Medium", "HGP行書体", sans-serif;
+}
+
+h2 {
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+ol {
+    list-style-position: inside;
+    margin-left: 37%;
+    margin-bottom: 5%;
+    list-style-type: square;
+    border: solid 2px rgb(200, 230, 80);
+    border-radius: 50px;
+    width: 20%;
+    background-color: aliceblue;
+}
+
+ol li{padding: 5px;}
+
+
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20%;
+    padding: auto;
+    background-color: aliceblue;
+}
+
+table thead{
+    background-color: rgb(255, 220, 226);
+}
+
+table,tb,td {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: solid 1px rgb(0, 6, 74);
+    border-collapse: collapse;
+ }
+img {
+    width:80px;
+    object-fit: cover;
+ }
+
+/* 画像の表示を％で指定するとおかしなことになる... */
+/*border-collapseは枠線の見た目を調整する*/
+
+img[class]{width: 200px;}
