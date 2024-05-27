@@ -1,0 +1,34 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(213, 255, 211);
+}
+
+.ty {
+    margin-left: 45%;
+    background-color: chartreuse;
+}
+
+.tyu-o {
+    margin-left: 40%;
+    margin-right: 30%;
+}
+
+.t{margin-left: 30%;
+    margin-right: 30%;}
+
+.kore {
+    border: 3px dotted rgb(76, 202, 202);
+    list-style-position: inside;
+}
+
+.game {
+    border: 7px dotted cornflowerblue;
+    /* padding: 5px; */
+}
+
+span {
+    color: blueviolet;
+}
+
+.kuma{border: solid whitesmoke; padding: 20px;}
