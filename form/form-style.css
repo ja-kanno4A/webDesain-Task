@@ -7,3 +7,6 @@ input{margin: 2%; padding: 2%; }
 button{margin-left: 35%;}
 form{margin-bottom: 10%;}
 label input[type="radio"]{padding: 1%;}
+p{margin-left: 35%; margin-top: 2%; margin-bottom: 5%; width: 28%;
+    padding: 2%;
+    color: rgb(255, 255, 255); background-color: rgb(20, 107, 78);}
