@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>入力フォーム</title>
+    <link rel="stylesheet" href="form-style.css">
+</head>
+
+<body>
+    <h1>会員登録</h1>
+    <form action="#" method="post">
+
+        <fieldset>
+            <legend>お客様情報</legend>
+            <table>
+                <tbody>
+
+                    <tr>
+                        <td>姓</td>
+                        <td>:</td>
+                        <td><input type="text" name="last_name"></td>
+                    </tr>
+
+                    <tr>
+                        <td>名</td>
+                        <td>:</td>
+                        <td><input type="text" name="first_name"></td>
+                    </tr>
+
+                    <tr>
+                        <td>住所</td>
+                        <td>:</td>
+                        <td><input type="text" name="adress"></td>
+                    </tr>
+
+                    <tr>
+                        <td>メールアドレス</td>
+                        <td>:</td>
+                        <td><input type="email" name="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td>電話番号</td>
+                        <td>:</td>
+                        <td><input type="tel" name="tel"></td>
+                    </tr>
+
+                    <tr>
+                        <td>生年月日</td>
+                        <td>:</td>
+                        <td><input type="date" name="birthday" value="1990-01-01"></td>
+                    </tr>
+
+                    <tr>
+                        <td>年齢</td>
+                        <td>:</td>
+                        <td><input type="number" name="age" min="0" max="150">歳</td>
+                    </tr>
+
+                    <tr>
+                        <td>性別</td>
+                        <td>:</td>
+                        <td><label><input type="radio" name="gender" value="0">男</label>
+                            <label><input type="radio" name="gender" value="1">女</label>
+                            <label><input type="radio" name="gender" value="2">その他</label>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>パスワード</legend>
+            英数字8文字以上で入力してください。<br>
+            <input type="password" name="password"><br><br>
+            確認のためもう一度入力してください。<br>
+            <input type="password" name="password_comfirm"><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>希望メールマガジン</legend>
+            <label><input type="checkbox" name="magazine" value="1">IT</label>
+            <label><input type="checkbox" name="magazine" value="2">営業</label>
+            <label><input type="checkbox" name="magazine" value="3">接客</label>
+            <label><input type="checkbox" name="magazine" value="4">医療</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>利用規約</legend>
+            <a href="terms.html" target="_blank" id="riyoukiyaku">利用規約を確認する</a><br>
+            <label><input type="checkbox" name="terms" value="agree">規約に同意する</label>
+        </fieldset>
+
+        <button type="reset">内容をクリアする</button><br>
+        <button type="submid">確認する</button>
+
+    </form>
+
+
+
+
+
+
+</body>
+
+</html>
