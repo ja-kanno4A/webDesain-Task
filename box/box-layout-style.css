@@ -1,0 +1,81 @@
+body {
+    font-family: "BIZ UDP明朝 Medium", sans-serif;
+}
+
+
+h1 {
+    /*必須*/
+    text-align: center;
+    color: turquoise;
+}
+
+.item {
+    /* 必須 */
+    width: 25%;
+    /* 必須 !!*/
+    text-align: center;
+    margin: 2%;
+    background-color: aquamarine;
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h2 {
+    /* 必須 */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rebeccapurple;
+}
+
+/* 必須 */
+.siz{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+img{
+    display: block;
+}
+
+/* 必須 */
+.siz img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+a{
+    /* 必須 */
+    display: block;
+    width: 40%;
+    margin: 2%;
+    padding: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+    border: 1px solid turquoise;
+    border-radius: 10px;
+    text-decoration: none;
+    color: palevioletred;
+}
+
+
+p{
+    /* 必須 */
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+    color: rebeccapurple;
+}
+
+.item p{
+    text-align: left;
+}
